@@ -1,8 +1,9 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore.Migrations;
-
-namespace RecipesApp.Data.Migrations
+﻿namespace RecipesApp.Data.Migrations
 {
+    using System;
+
+    using Microsoft.EntityFrameworkCore.Migrations;
+
     public partial class AddReciepsAndRelatedModels : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)

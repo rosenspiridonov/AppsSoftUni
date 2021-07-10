@@ -21,6 +21,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Data\RecipesApp.Data.Common\RecipesApp.Data.Common.csproj" />
     <ProjectReference Include="..\..\Data\RecipesApp.Data.Models\RecipesApp.Data.Models.csproj" />
+    <ProjectReference Include="..\..\Web\RecipesApp.Web.ViewModels\RecipesApp.Web.ViewModels.csproj" />
     <ProjectReference Include="..\RecipesApp.Services.Mapping\RecipesApp.Services.Mapping.csproj" />
   </ItemGroup>
 
