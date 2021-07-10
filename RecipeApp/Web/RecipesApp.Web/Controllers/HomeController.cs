@@ -2,9 +2,8 @@
 {
     using System.Diagnostics;
 
-    using RecipesApp.Web.ViewModels;
-
     using Microsoft.AspNetCore.Mvc;
+    using RecipesApp.Web.ViewModels;
 
     public class HomeController : BaseController
     {

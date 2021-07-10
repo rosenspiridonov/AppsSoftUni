@@ -4,11 +4,10 @@
     using System.Linq;
     using System.Threading.Tasks;
 
-    using RecipesApp.Common;
-    using RecipesApp.Data.Models;
-
     using Microsoft.AspNetCore.Identity;
     using Microsoft.Extensions.DependencyInjection;
+    using RecipesApp.Common;
+    using RecipesApp.Data.Models;
 
     internal class RolesSeeder : ISeeder
     {

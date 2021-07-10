@@ -1,9 +1,8 @@
 ﻿namespace RecipesApp.Web.ViewModels.Settings
 {
+    using AutoMapper;
     using RecipesApp.Data.Models;
     using RecipesApp.Services.Mapping;
-
-    using AutoMapper;
 
     public class SettingViewModel : IMapFrom<Setting>, IHaveCustomMappings
     {

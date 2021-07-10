@@ -4,9 +4,8 @@
     using System.Linq;
     using System.Threading.Tasks;
 
-    using RecipesApp.Data.Common.Repositories;
-
     using Microsoft.EntityFrameworkCore;
+    using RecipesApp.Data.Common.Repositories;
 
     public class EfRepository<TEntity> : IRepository<TEntity>
         where TEntity : class

@@ -3,12 +3,11 @@
     using System;
     using System.Threading.Tasks;
 
+    using Microsoft.AspNetCore.Mvc;
     using RecipesApp.Data.Common.Repositories;
     using RecipesApp.Data.Models;
     using RecipesApp.Services.Data;
     using RecipesApp.Web.ViewModels.Settings;
-
-    using Microsoft.AspNetCore.Mvc;
 
     public class SettingsController : BaseController
     {
