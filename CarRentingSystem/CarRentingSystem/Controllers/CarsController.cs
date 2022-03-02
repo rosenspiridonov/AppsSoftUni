@@ -5,6 +5,7 @@
     using Microsoft.AspNetCore.Mvc;
     using Models.Cars;
     using System.Linq;
+    using CarRentingSystem.Data.Models;
 
     public class CarsController : Controller
     {
@@ -34,6 +35,19 @@
 
                 return View(input);
             }
+
+            var car = new Car()
+            {
+                Brand = input.Brand,
+                Model = input.Model,
+                CategoryId = input.CategoryId,
+                Description = input.Description,
+                ImageUrl = input.ImageUrl,
+                Year = input.Year
+            };
+
+            db.Cars.Add(car);
+            db.SaveChanges();
 
             return Redirect("/");
         }
